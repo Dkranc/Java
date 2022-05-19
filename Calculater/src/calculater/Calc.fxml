@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculater.Controller">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text fx:id="minusSign" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="30.803375244140625">
+               <HBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="screen" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="400.0">
+               <HBox.margin>
+                  <Insets left="25.0" top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fx:id="action" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="30.803375244140625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="one" mnemonicParsing="false" onAction="#oneBtn" prefHeight="100.0" prefWidth="100.0" text="1">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="two" mnemonicParsing="false" onAction="#twoBtn" prefHeight="100.0" prefWidth="100.0" text="2" />
+            <Button fx:id="three" mnemonicParsing="false" onAction="#threeBtn" prefHeight="100.0" prefWidth="100.0" text="3" />
+            <Button fx:id="plus" mnemonicParsing="false" onAction="#plusBtn" prefHeight="100.0" prefWidth="100.0" text="+" />
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="four" mnemonicParsing="false" onAction="#fourBtn" prefHeight="100.0" prefWidth="100.0" text="4">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="five" mnemonicParsing="false" onAction="#fiveBtn" prefHeight="100.0" prefWidth="100.0" text="5" />
+            <Button fx:id="six" mnemonicParsing="false" onAction="#sixBtn" prefHeight="100.0" prefWidth="100.0" text="6" />
+            <Button fx:id="minus" mnemonicParsing="false" onAction="#minusBtn" prefHeight="100.0" prefWidth="100.0" text="-">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="seven" mnemonicParsing="false" onAction="#sevenBtn" prefHeight="100.0" prefWidth="100.0" text="7">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="eight" mnemonicParsing="false" onAction="#eightBtn" prefHeight="100.0" prefWidth="100.0" text="8" />
+            <Button fx:id="nine" mnemonicParsing="false" onAction="#nineBtn" prefHeight="100.0" prefWidth="100.0" text="9" />
+            <Button fx:id="devide" mnemonicParsing="false" onAction="#devideBtn" prefHeight="100.0" prefWidth="100.0" text="/" />
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="point" mnemonicParsing="false" onAction="#pointBtn" prefHeight="100.0" prefWidth="100.0" text=".">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="zero" mnemonicParsing="false" onAction="#zeroBtn" prefHeight="100.0" prefWidth="100.0" text="0" />
+            <Button fx:id="equals" mnemonicParsing="false" onAction="#equalsBtn" prefHeight="100.0" prefWidth="100.0" text="=" />
+            <Button fx:id="times" mnemonicParsing="false" onAction="#timesBtn" prefHeight="100.0" prefWidth="100.0" text="*">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="changeSign" mnemonicParsing="false" onAction="#changeBtn" prefHeight="100.0" prefWidth="100.0" text="+/-">
+               <HBox.margin>
+                  <Insets left="200.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" mnemonicParsing="false" onAction="#clearBtn" prefHeight="100.0" prefWidth="100.0" text="ce">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

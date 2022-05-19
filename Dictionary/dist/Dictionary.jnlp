@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dictionary.jnlp">
+  <information>
+    <title>Dictionary</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Dictionary.jar" size="7722" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="dictionary.Dictionary"  name="Dictionary" />
+  <update check="always"/>
+</jnlp>
