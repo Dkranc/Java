@@ -1,0 +1,15 @@
+2c rainy and no clouds
+3c not rainy and no clouds
+5c rainy and lots of clouds
+12c not rainy and no clouds
+14c rainy and lots of clouds
+16c rainy and no clouds
+15c not rainy and no clouds
+8c rainy and no clouds
+7c not rainy and no clouds
+9c rainy and lots of clouds
+21c rainy and no clouds
+23c not rainy and no clouds
+5c rainy and lots of clouds
+8c not rainy and no clouds
+9c rainy and lots of clouds
