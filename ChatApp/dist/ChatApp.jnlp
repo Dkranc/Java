@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ChatApp.jnlp">
+  <information>
+    <title>ChatApp</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ChatApp.jar" size="2805" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="chatapp.ChatApp"  name="ChatApp" />
+  <update check="always"/>
+</jnlp>
